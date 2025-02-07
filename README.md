@@ -22,14 +22,15 @@ address.txt存放私匙一行一个，abi.json不要做任何修改。
 
 ——————————————————————————————————————————
 
-pip install web3 eth_account
+    pip install web3 eth_account
 
-pip install --upgrade web3
+    pip install --upgrade web3
 
 ——————————————————————————————————————————
 
 ## 运行脚本
 
-python3 soneium.py
+    python3 soneium.py
 
-![image](https://github.com/user-attachments/assets/62691e0a-5a88-4978-a5af-5ec06fea73eb)
+![image](https://github.com/user-attachments/assets/62691e0a-5a88-4978-a5af-5ec06fea73eb) 
+
