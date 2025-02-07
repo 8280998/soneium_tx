@@ -4,8 +4,11 @@
 支持系统为MAC及ubuntu正常运行
 
 win系统没测试，正常运行python代码的win应该也可以运行
+
 ——————————————————————————————————————————
+
 pip install web3 eth_account
 
 pip install --upgrade web3
+
 ——————————————————————————————————————————
