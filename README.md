@@ -1,4 +1,10 @@
 # soneium_auto_tx 索尼链自动刷tx脚本
+## 说明：主要刷ETH- WETH互转，无任何磨损，只花费少量gas。
+###配置说明：自行修改以下数量比如符合要求的把2改为45
+    eth_amount = 0.001  # 每次交易的ETH数量
+    num_transactions = 2  # 每个地址的交易次数
+    GAS_LIMIT = 36194     # 如果交易失败，把gas调大一些
+
 
 ## 安装运行环境
 支持系统为MAC及ubuntu正常运行
@@ -15,6 +21,8 @@ pip install --upgrade web3
 
 ——————————————————————————————————————————
 
-执行上面二个命令后，执行python3 soneium.py
+## 运行脚本
+
+python3 soneium.py
 
 ![image](https://github.com/user-attachments/assets/62691e0a-5a88-4978-a5af-5ec06fea73eb)
