@@ -36,8 +36,11 @@ address.txt存放私匙一行一个，abi.json不要做任何修改。
 
     python3 soneium.py
 
+
+
 ![image](https://github.com/user-attachments/assets/62691e0a-5a88-4978-a5af-5ec06fea73eb) 
 
+运行完成后生成日志文件transaction_records.txt，如图所示
 ![image](https://github.com/user-attachments/assets/adfee4ec-ec84-421c-86f5-49f4b5b78959)
 
 
