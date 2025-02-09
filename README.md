@@ -5,17 +5,14 @@
 
 ## 1.说明：主要刷ETH- WETH互转，无任何磨损，只花费少量gas。
 ## 建议本地电脑运行，私匙文件在服务器无法保证安全
-配置说明：自行修改以下参数，比如符合要求的把2改为45
-
-快速刷需要把  time.sleep(10)改成time.sleep(1)，有二处。  修改随机值为1，3-->  sleep_time = random.randint(1, 3)
 
 ##
 
     eth_amount = 0.001  # 每次交易的ETH数量
     
-    num_transactions = 2  # 每个地址的交易次数
+    num_transactions = 5  # 每个地址的交易次数
     
-    GAS_LIMIT = 36194     # 如果交易失败，把gas调大一些
+    GAS_LIMIT = 50000     # 如果交易失败，把gas调大一些
 
 ##
 
